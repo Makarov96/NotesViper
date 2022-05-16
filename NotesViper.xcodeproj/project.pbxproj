@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1DD0FE528319C6F00E9E355 /* ProtocolImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD0FE428319C6F00E9E355 /* ProtocolImpl.swift */; };
+		E1DD0FE82831A86200E9E355 /* NotesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD0FE72831A86200E9E355 /* NotesInteractor.swift */; };
+		E1DD0FEC2831E78900E9E355 /* NotesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD0FEB2831E78900E9E355 /* NotesRouter.swift */; };
+		E1DD0FEF2831E91D00E9E355 /* NotesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD0FEE2831E91D00E9E355 /* NotesDetailView.swift */; };
+		E1DD0FF12831EABE00E9E355 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD0FF02831EABE00E9E355 /* NotesListView.swift */; };
+		E1DD0FF42831EB4600E9E355 /* NotesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD0FF32831EB4600E9E355 /* NotesPresenter.swift */; };
 		E1DDD33728317352009A4D25 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDD33628317352009A4D25 /* Tests_iOS.swift */; };
 		E1DDD33928317352009A4D25 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDD33828317352009A4D25 /* Tests_iOSLaunchTests.swift */; };
 		E1DDD34328317352009A4D25 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDD34228317352009A4D25 /* Tests_macOS.swift */; };
@@ -21,6 +27,11 @@
 		E1DDD34D28317352009A4D25 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDD31F28317351009A4D25 /* Persistence.swift */; };
 		E1DDD34E28317352009A4D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DDD32028317352009A4D25 /* Assets.xcassets */; };
 		E1DDD34F28317352009A4D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DDD32028317352009A4D25 /* Assets.xcassets */; };
+		E1DDD36F283184B4009A4D25 /* Notes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDD36D283184B4009A4D25 /* Notes+CoreDataClass.swift */; };
+		E1DDD370283184B4009A4D25 /* Notes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDD36E283184B4009A4D25 /* Notes+CoreDataProperties.swift */; };
+		E1DDD3752831857B009A4D25 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDD3742831857B009A4D25 /* NoteModel.swift */; };
+		E1DDD37728318622009A4D25 /* NoteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDD37628318622009A4D25 /* NoteEntity.swift */; };
+		E1DDD37C28318757009A4D25 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDD37B28318757009A4D25 /* DataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1DD0FE428319C6F00E9E355 /* ProtocolImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolImpl.swift; sourceTree = "<group>"; };
+		E1DD0FE72831A86200E9E355 /* NotesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesInteractor.swift; sourceTree = "<group>"; };
+		E1DD0FEB2831E78900E9E355 /* NotesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesRouter.swift; sourceTree = "<group>"; };
+		E1DD0FEE2831E91D00E9E355 /* NotesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesDetailView.swift; sourceTree = "<group>"; };
+		E1DD0FF02831EABE00E9E355 /* NotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListView.swift; sourceTree = "<group>"; };
+		E1DD0FF32831EB4600E9E355 /* NotesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesPresenter.swift; sourceTree = "<group>"; };
 		E1DDD31C28317351009A4D25 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		E1DDD31D28317351009A4D25 /* NotesViperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViperApp.swift; sourceTree = "<group>"; };
 		E1DDD31E28317351009A4D25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +72,11 @@
 		E1DDD33E28317352009A4D25 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DDD34228317352009A4D25 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E1DDD34428317352009A4D25 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		E1DDD36D283184B4009A4D25 /* Notes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E1DDD36E283184B4009A4D25 /* Notes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E1DDD3742831857B009A4D25 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		E1DDD37628318622009A4D25 /* NoteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEntity.swift; sourceTree = "<group>"; };
+		E1DDD37B28318757009A4D25 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +111,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1DD0FE228319BE600E9E355 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		E1DD0FE328319C3E00E9E355 /* protocolimpl */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD0FE428319C6F00E9E355 /* ProtocolImpl.swift */,
+			);
+			path = protocolimpl;
+			sourceTree = "<group>";
+		};
+		E1DD0FE62831A85000E9E355 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD0FE72831A86200E9E355 /* NotesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E1DD0FEA2831E76E00E9E355 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD0FEB2831E78900E9E355 /* NotesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E1DD0FED2831E8FD00E9E355 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD0FEE2831E91D00E9E355 /* NotesDetailView.swift */,
+				E1DD0FF02831EABE00E9E355 /* NotesListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1DD0FF22831EB1E00E9E355 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD0FF32831EB4600E9E355 /* NotesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		E1DDD31528317351009A4D25 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +173,7 @@
 		E1DDD31A28317351009A4D25 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E1DDD37128318533009A4D25 /* Class */,
 				E1DDD31D28317351009A4D25 /* NotesViperApp.swift */,
 				E1DDD31E28317351009A4D25 /* ContentView.swift */,
 				E1DDD31F28317351009A4D25 /* Persistence.swift */,
@@ -147,6 +218,72 @@
 				E1DDD34428317352009A4D25 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		E1DDD36C2831848E009A4D25 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD0FE328319C3E00E9E355 /* protocolimpl */,
+				E1DDD3782831872A009A4D25 /* proivder */,
+				E1DDD37328318559009A4D25 /* Model */,
+				E1DDD36D283184B4009A4D25 /* Notes+CoreDataClass.swift */,
+				E1DDD36E283184B4009A4D25 /* Notes+CoreDataProperties.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E1DDD37128318533009A4D25 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD0FF22831EB1E00E9E355 /* Presenter */,
+				E1DD0FED2831E8FD00E9E355 /* View */,
+				E1DD0FEA2831E76E00E9E355 /* Router */,
+				E1DD0FE62831A85000E9E355 /* Interactor */,
+				E1DDD36C2831848E009A4D25 /* DataSource */,
+				E1DDD3722831853D009A4D25 /* Entity */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E1DDD3722831853D009A4D25 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD0FE228319BE600E9E355 /* protocols */,
+				E1DDD37628318622009A4D25 /* NoteEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E1DDD37328318559009A4D25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1DDD3742831857B009A4D25 /* NoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1DDD3782831872A009A4D25 /* proivder */ = {
+			isa = PBXGroup;
+			children = (
+				E1DDD37A28318741009A4D25 /* local_provider */,
+				E1DDD37928318731009A4D25 /* remote_provider */,
+			);
+			path = proivder;
+			sourceTree = "<group>";
+		};
+		E1DDD37928318731009A4D25 /* remote_provider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = remote_provider;
+			sourceTree = "<group>";
+		};
+		E1DDD37A28318741009A4D25 /* local_provider */ = {
+			isa = PBXGroup;
+			children = (
+				E1DDD37B28318757009A4D25 /* DataProvider.swift */,
+			);
+			path = local_provider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +447,18 @@
 				E1DDD34828317352009A4D25 /* NotesViperApp.swift in Sources */,
 				E1DDD34C28317352009A4D25 /* Persistence.swift in Sources */,
 				E1DDD34628317352009A4D25 /* NotesViper.xcdatamodeld in Sources */,
+				E1DDD3752831857B009A4D25 /* NoteModel.swift in Sources */,
+				E1DD0FE82831A86200E9E355 /* NotesInteractor.swift in Sources */,
+				E1DDD370283184B4009A4D25 /* Notes+CoreDataProperties.swift in Sources */,
+				E1DD0FF12831EABE00E9E355 /* NotesListView.swift in Sources */,
+				E1DDD36F283184B4009A4D25 /* Notes+CoreDataClass.swift in Sources */,
+				E1DDD37C28318757009A4D25 /* DataProvider.swift in Sources */,
+				E1DDD37728318622009A4D25 /* NoteEntity.swift in Sources */,
 				E1DDD34A28317352009A4D25 /* ContentView.swift in Sources */,
+				E1DD0FEF2831E91D00E9E355 /* NotesDetailView.swift in Sources */,
+				E1DD0FF42831EB4600E9E355 /* NotesPresenter.swift in Sources */,
+				E1DD0FEC2831E78900E9E355 /* NotesRouter.swift in Sources */,
+				E1DD0FE528319C6F00E9E355 /* ProtocolImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
